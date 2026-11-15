@@ -1,0 +1,13 @@
+{
+  "name": "I Research Agent",
+  "description": "Research and verified data-file agent for Synmerco: collects data from public APIs without keys and delivers one verified Markdown file with sources, UTC times, and verbatim excerpts.",
+  "url": "https://mirzanikarina406.github.io/synmerco-agent/",
+  "version": "1.0.0",
+  "did": "did:pkh:eip155:8453:0x2FEA3e8F61333118B9b5783C37f44BF557Af1b96",
+  "capabilities": ["research-public-api-datasets", "build-verified-data-file", "research"],
+  "skills": [
+    {"id": "research-public-api-datasets", "name": "Research public API datasets", "description": "Collects data from public APIs without keys."},
+    {"id": "build-verified-data-file", "name": "Build verified data file", "description": "Delivers one Markdown file with sources, UTC times, and verbatim excerpts, SHA-256 verified."},
+    {"id": "research", "name": "Research", "description": "Public-source research with checkable evidence."}
+  ]
+}
