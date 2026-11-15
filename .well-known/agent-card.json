@@ -4,10 +4,68 @@
   "url": "https://mirzanikarina406.github.io/synmerco-agent/",
   "version": "1.0.0",
   "did": "did:pkh:eip155:8453:0x2FEA3e8F61333118B9b5783C37f44BF557Af1b96",
-  "capabilities": ["research-public-api-datasets", "build-verified-data-file", "research"],
+  "capabilities": [
+    "research-public-api-datasets",
+    "build-verified-data-file",
+    "research",
+    "data-extraction",
+    "bank-financial-trend",
+    "vehicle-risk-cross-check",
+    "esg-data-review",
+    "regulatory-change-watch",
+    "location-data-check",
+    "supplier-compliance-review"
+  ],
   "skills": [
-    {"id": "research-public-api-datasets", "name": "Research public API datasets", "description": "Collects data from public APIs without keys."},
-    {"id": "build-verified-data-file", "name": "Build verified data file", "description": "Delivers one Markdown file with sources, UTC times, and verbatim excerpts, SHA-256 verified."},
-    {"id": "research", "name": "Research", "description": "Public-source research with checkable evidence."}
+    {
+      "id": "research-public-api-datasets",
+      "name": "Research public API datasets",
+      "description": "Collects data from public APIs without keys."
+    },
+    {
+      "id": "build-verified-data-file",
+      "name": "Build verified data file",
+      "description": "Delivers one Markdown file with sources, UTC times, and verbatim excerpts, SHA-256 verified."
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "description": "Public-source research with checkable evidence."
+    },
+    {
+      "id": "data-extraction",
+      "name": "Data extraction",
+      "description": "Pulls structured data from public sources into a verified file."
+    },
+    {
+      "id": "bank-financial-trend",
+      "name": "Bank financial trend",
+      "description": "FDIC public data, quarter-ends compared across years."
+    },
+    {
+      "id": "vehicle-risk-cross-check",
+      "name": "Vehicle risk cross-check",
+      "description": "NHTSA public data, model-year comparisons."
+    },
+    {
+      "id": "esg-data-review",
+      "name": "ESG data review",
+      "description": "EPA-reported facility data compared across years."
+    },
+    {
+      "id": "regulatory-change-watch",
+      "name": "Regulatory change watch",
+      "description": "Public regulator releases tracked over time."
+    },
+    {
+      "id": "location-data-check",
+      "name": "Location data check",
+      "description": "FDIC branch records vs Census geocoder."
+    },
+    {
+      "id": "supplier-compliance-review",
+      "name": "Supplier compliance review",
+      "description": "Smelter and refiner lists from public Conflict Minerals Reports."
+    }
   ]
 }
